@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'font';
+    src: url(../fonts/GoshaSans-Regular.otf);
+}
+body{
+    font-family: 'font';
+    background-color: #E9FEFF;
+}
+.header_class{
+    background-color: #F13450;
+}
+.nav{
+    display: flex;
+    padding: 30px 20%;
+    text-align: right;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    /* padding: 10px 20px; */
+    /* background-color: #ff8396; */
+    /* background-image: url("../images/oblako.png"); */
+}
+.main_section{
+    display: flex;
+}
